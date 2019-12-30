@@ -833,10 +833,11 @@ header {
 
 .service i {
     position: absolute;
-    left: 20px;
+    left: 12px;
+    top: 42px;
     text-align: center;
     font-size: 32px;
-    color: #bf2786;
+    color: #fff;
     border-radius: 50%;
 }
 
@@ -872,8 +873,22 @@ header {
     /*color: #000;*/
 }
 .service:hover i {
-    color: #fff;
+    color: #dc727e;
     /*color: #000;*/
+}
+.service-left{
+    position: absolute;
+    left: 0;
+    -webkit-transition: 0.8s color;
+    transition: 0.8s color;
+    background: #bf2786;
+    top: 0;
+    bottom: 0;
+    width: 60px;
+}
+.service:hover .service-left
+{
+    background: #fff;
 }
 
 /*------------------------------------*\
