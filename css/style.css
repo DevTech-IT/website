@@ -267,12 +267,19 @@ input[type="text"], input[type="email"], input[type="password"], input[type="num
 textarea {
     padding: 10px 10px;
     min-height: 80px;
-    resize: vertical;
+    resize: none;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
     border-color: #bf2786;
     opacity: 1;
+}
+.txtarea:focus{
+    border-color: #bf2786;
+    opacity: 1;
+}
+.btn-submit{
+    height: 40px;
 }
 
 /* --  Buttons  -- */
