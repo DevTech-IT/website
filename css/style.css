@@ -842,8 +842,8 @@ header {
 
 .service:after {
     content: "";
-    /*background-color: #bf2786;*/
-    background: url(../img/modern.png) no-repeat;
+    background-color: #bf2786;
+    /*background: url(../img/modern.png) no-repeat;*/
     position: absolute;
     left: 0;
     top: 0;
@@ -864,16 +864,16 @@ header {
 }
 
 .service:hover h3 {
-    /*color: #fff;*/
-    color: #000;
+    color: #fff;
+    /*color: #000;*/
 }
 .service:hover p {
-    /*color: #fff;*/
-    color: #000;
+    color: #fff;
+    /*color: #000;*/
 }
 .service:hover i {
-    /*color: #fff;*/
-    color: #000;
+    color: #fff;
+    /*color: #000;*/
 }
 
 /*------------------------------------*\
