@@ -1,0 +1,13 @@
+1. git remote add upstream https://github.com/DevTech-IT/website.git
+( check upstream status: git remote -v
+ex- git remote -v
+	origin  https://github.com/mdshajib/website.git (fetch)
+	origin  https://github.com/mdshajib/website.git (push)
+	upstream        https://github.com/DevTech-IT/website.git (fetch)
+	upstream        https://github.com/DevTech-IT/website.git (push)
+)
+2. git fetch upstream
+
+3.  git merge upstream/(master/team)
+4.  git push origin (master/team)
+
