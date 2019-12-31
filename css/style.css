@@ -1103,7 +1103,7 @@ header {
 
 .team::after {
     content: "";
-    background-color: #1C1D21;
+    background-color: #160656;
     position: absolute;
     left: 0;
     right: 0;
@@ -1129,7 +1129,7 @@ header {
 }
 
 .team .overlay {
-    background: #1C1D21;
+    background: #1606568a;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1182,12 +1182,12 @@ header {
 
 .team .team-social a {
     display: block;
-    line-height: 50px;
-    width: 50px;
+    line-height: 40px;
+    width: 40px;
     text-align: center;
     background-color: #bf2786;
     color: #FFF;
-    margin-bottom: 2px;
+    margin: 5px 5px;
     border-radius: 100%;
 }
 
