@@ -90,4 +90,18 @@
 		}
 	});
 
+	$('#main-slider').owlCarousel({
+		loop:true,
+		margin:15,
+		dots : false,
+		nav: true,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		autoplay : true,
+		responsive:{
+			0: {
+				items:1
+			}
+		}
+	});
+
 })(jQuery);
